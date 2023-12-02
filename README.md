@@ -1,4 +1,4 @@
-# project-cv
+# projectcv / simplon.co @2024
 
 ## Table des matières 🗒️
 
