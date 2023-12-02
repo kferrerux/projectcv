@@ -9,7 +9,7 @@
 - [Contribuer](#contribuer)
 
 ## Aperçu 👀
-![005](https://github.com/kferrerux/projectcv/assets/77007630/e1fa6ff2-c45f-45f2-94a7-d524efb5558c)
+![006](https://github.com/kferrerux/projectcv/assets/77007630/557705d9-8f83-4876-a210-c6334265a953)
 *<p align=center>Work in progress</p>*
 
 ## Caractéristiques 🕵️
