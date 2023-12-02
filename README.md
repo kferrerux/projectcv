@@ -9,9 +9,8 @@
 - [Contribuer](#contribuer)
 
 ## Aperçu 👀
-
-![002](https://github.com/kferrerux/frontend-retro-page/assets/77007630/bdd8dd62-19e2-4e60-8c84-cbc81f416df5)
-*<p align=center>Aperçu de la page pre-push</p>*
+![003](https://github.com/kferrerux/projectcv/assets/77007630/7b6bb640-e7af-4d4c-af8f-23f40438f89e)
+*<p align=center>Work in progress</p>*
 
 ## Caractéristiques 🕵️
 
