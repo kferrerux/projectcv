@@ -30,7 +30,7 @@ Utilisation des langages HTML/CSS dans le but de créer une page professionnelle
 
 a . Clonez ce référentiel
     ```bash
-    git clone https://github.com/kferrerux/project-cv.git
+    git clone https://github.com/kferrerux/projectcv.git
     ```
 
 b . Ouvrez le fichier `index.html` dans votre navigateur
