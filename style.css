@@ -42,6 +42,15 @@ body {
   height: 100vh;
   scroll-snap-align: start;
 }
+
+.slide0 {
+  background-image: url(assets/imgs/slide0background.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 /* navbar */
 nav {
   margin-top: 30px;
@@ -106,7 +115,6 @@ nav ul li:hover {
 }
 
 .flowers {
-  margin-top: 20px;
   width: 500px;
 }
 
@@ -131,7 +139,7 @@ nav ul li:hover {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .fa-brands {
@@ -215,7 +223,7 @@ nav ul li:hover {
   justify-content: space-around;
   color: rgba(255, 231, 208, 1);
   padding: 10%;
-  height: 100vh;
+  height: 80vh;
 }
 
 #skills h2 {
@@ -225,7 +233,6 @@ nav ul li:hover {
   font-size: 3em;
   color: rgba(255, 231, 208, 1);
   text-align: center;
-  margin-bottom: -50px;
 }
 
 #skills p {
@@ -236,14 +243,16 @@ nav ul li:hover {
 
 .frontendskills {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   text-align: center;
   width: 100%;
+  height: 260px;
 }
 
 .html5 {
+  margin-top: 50px;
   width: 110px;
 }
 
@@ -255,7 +264,12 @@ nav ul li:hover {
   width: 170px;
 }
 
+.margin {
+  margin-bottom: 20px;
+}
+
 .wip {
+  margin-top: 50px;
   text-align: center;
 }
 /* fourth slide or slide3 */
