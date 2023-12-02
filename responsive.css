@@ -1,6 +1,6 @@
 
 /* Écrans normaux - entre 860px et 1140px */
-@media only screen and (min-width: 860px) and (max-width: 1140px) {
+@media only screen and (min-width: 860px) and (max-width: 1500px) {
     
     body {
         width: 70%;
@@ -71,8 +71,12 @@
     }
 }
 
-/* Écrans moyens - entre 860px et 1248px */
+/* Écrans moyens (bis) - entre 860px et 1248px */
 @media only screen and (min-width: 860px) and (max-width: 1248px) {
+
+    nav {
+        border-radius: 0%;
+    }
 
     #history p {
         font-size: 1.1rem;
@@ -211,20 +215,20 @@
     }
 
     nav {
+        border-radius: 0%;
         margin: auto;
         width: 100%;
         position: fixed;
         text-align: center;
-        background-color: rgba(0, 34, 255, 0.719);
+        background-color: #ff5a47;
     }
 
     nav ul {
-        height:40px;
-        display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         text-align: center;
+        margin-top: -15px;
     }
 
     nav li {
@@ -312,7 +316,6 @@
         align-items: center;
         justify-content: center;
     }
-
 
 }
 

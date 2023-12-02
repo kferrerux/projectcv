@@ -6,7 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -25,14 +24,14 @@ body {
     min-height: 100%;
     overflow-x: hidden;
 }
-
+/* contain all slides, needed to instant scroll between pages */
 .start {
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
-
+/* default style for every slides */
 .slides {
     background-color: #ffe7d0;
     display: flex;
@@ -43,8 +42,7 @@ body {
     height: 100vh;
     scroll-snap-align: start;
 }
-
-
+/* navbar */
 nav {
     margin-top: 30px;
     margin-left: 30px;
@@ -53,7 +51,6 @@ nav {
     font-size: 2rem;
     background-color: #ff5a47;
     box-shadow: 0 0 10px #2b213d28;
-    border-radius: 10%;
 }
 
 nav ul {
@@ -80,7 +77,7 @@ nav ul li:hover {
     transition: 0.5s;
     transform: scale(1.3);
 }
-
+/* first slide or slide0 */
 #hero {
     width: 100%;
     display: flex;
@@ -127,7 +124,7 @@ nav ul li:hover {
     font-size: 2em;
     margin-bottom: 2%;
 }
-
+/* fontawesomes */
 #socials {
     width: 100%;
     display: flex;
@@ -161,7 +158,7 @@ nav ul li:hover {
 .pmobile {
     display: none;
 }
-
+/* second slide or slide1 */
 .slide1 {
     background-image: url(assets/imgs/bg1alt.png);
     width: 100%;
@@ -200,7 +197,7 @@ nav ul li:hover {
     width: 60%;
     text-align: justify;
 }
-
+/* third slide or slide2 */
 .slide2 {
     background-color: #2b213d;
     width: 100%;
@@ -260,7 +257,7 @@ nav ul li:hover {
 .wip {
     text-align: center;
 }
-
+/* fourth slide or slide3 */
 .slide3 {
     width: 100%;
     height: 100vh;
@@ -269,7 +266,6 @@ nav ul li:hover {
     align-items: center;
     justify-content: center;
 }
-
 
 #contact h2 {
     text-shadow: 0 0 10px #2b213d0a;
@@ -329,7 +325,7 @@ form .submit {
     color: rgba(255,231,208,1);
     border: none;
 }
-
+/* footer */
 footer {
     font-family: 'hubballi';
     font-size: 1rem;
