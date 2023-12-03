@@ -16,6 +16,40 @@ html {
   background-color: #ffe7d0;
 }
 
+/* MOUSE*/
+
+.mouse {
+  position: absolute;
+  border-radius: 100%;
+  mix-blend-mode: difference;
+}
+
+#cursor {
+  background-color: rgb(0, 21, 255);
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%);
+  /* transition: 0.1s; */
+}
+
+#cercle2 {
+  background-color: rgba(203, 195, 195, 0.662);
+  width: 80px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+  transition: 0.2s ease;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#cercle3 {
+  background-color: rgb(0, 30, 255);
+  width: 150px;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+  border: 3px solid black;
+}
+
 p {
   font-family: "Hubballi";
 }
